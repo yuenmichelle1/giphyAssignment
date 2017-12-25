@@ -1,4 +1,4 @@
-var characterArr=['Bart','Homer','Marge','Lisa', 'Maggie','Flander', 'Stupid Sexy Flanders']
+var characterArr=['Bart','Homer','Marge','Lisa', 'Maggie','Flanders', 'Stupid Sexy Flanders']
 
 renderButtons();
 function renderButtons() {
@@ -23,7 +23,7 @@ function renderButtons() {
             var characterDiv= $(`<div class=col-md-5>`);
             var rate = $("<p>");
             var characterImage= $(`<img data-state="still">`);
-            rate.text(results[j].rating);
+            rate.text(` Rating:  ${results[j].rating}`);
             characterImage.attr("src", results[j].images.fixed_height_still.url);
             characterImage.attr("data-still",results[j].images.fixed_height_still.url);
             characterImage.attr("data-animate",results[j].images.fixed_height.url )
