@@ -1,0 +1,14 @@
+form{
+    float: right;
+    right: 25%;
+}
+
+#addCharacter{
+    position: relative;
+    left: 10%;
+    margin-top: 10px;
+}
+
+button{
+    margin-right: 10px;
+}
